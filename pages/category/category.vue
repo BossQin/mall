@@ -84,31 +84,17 @@
 	.view {
 		position: fixed;
 		left: 80px;
+		
 		/* #ifdef H5 */
 		top: 44px;
-		/* 适配h5 */
-		/* #endif */
-		/* #ifndef H5 */
-		top: 0;
-		/* 适配其他平台*/
-		/* #endif */
-		
-		/* #ifdef H5 */
 		width: 334.4px;
-		/* 适配h5 */
-		/* #endif */
-		/* #ifndef H5 */
-		width: 295.2px;
-		/* 适配其他平台*/
-		/* #endif */
-		
-		
-		/* height: 718px; */
-		/* #ifdef H5 */
 		height: calc(100vh - 44px - 50px);
 		/* 适配h5 */
 		/* #endif */
+		
 		/* #ifndef H5 */
+		top: 0;
+		width: 295.2px;
 		height: 100%;
 		/* 适配其他平台*/
 		/* #endif */
